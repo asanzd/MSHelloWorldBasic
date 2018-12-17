@@ -2,7 +2,7 @@ FROM maven:3.3-jdk-8
 
 VOLUME /tmp
 
-WORKDIR /code
+WORKDIR /
 
 # Prepare by downloading dependencies
 ADD pom.xml /pom.xml 
