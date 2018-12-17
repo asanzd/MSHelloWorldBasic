@@ -5,7 +5,7 @@ VOLUME /tmp
 WORKDIR /code
 
 # Prepare by downloading dependencies
-ADD pom.xml /code/pom.xml 
+ADD pom.xml /pom.xml 
 #RUN ["mvn", "dependency:resolve"]
 #RUN ["mvn", "verify"]
 
